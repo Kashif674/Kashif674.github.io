@@ -191,6 +191,7 @@
         .hero-content {
             text-align: center;
             color: white;
+            padding-top: 75px;
             z-index: 1;
             max-width: 800px;
         }
@@ -210,6 +211,26 @@
             background: white;
             position: relative;
         }
+        @media (max-width: 480px) {
+            .about-stats{
+                gap:1rem !important;
+            }
+            .stat-card{
+                padding: 2.5rem 1rem !important;
+            }
+    .hero-image {
+        width: 130px;
+        height: 130px;
+        margin: 0 auto;
+        display: block;
+        object-fit: contain; /* prevents cutting */
+    }
+
+    .hero-content {
+        padding-top: 70px;
+        text-align: center;
+    }
+}
 
         @keyframes glow {
             0%, 100% { box-shadow: 
